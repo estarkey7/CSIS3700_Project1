@@ -54,7 +54,7 @@ namespace starkey
 		Player1 = new tank(playerImage, 1920, 1080, 5, 1020, 0, 0, 1);
 		Player2 = new tank(playerImage, 1920, 1080, 1800, 1020, 0, 0, 2);
 		Player1->addEnemies(Player2); //I am doing this to get the reference of the enemy tank to the shell. I tried to get a reference to the world in tank, but I got a circular reference.
-		Player2->addEnemies(Player1);
+		Player2->addEnemies(Player1); //This is Player1 reference.
 		Player1->SetGame(game);
 		Player2->SetGame(game);
 
