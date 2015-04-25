@@ -1,0 +1,42 @@
+﻿Build started 4/25/2015 1:45:00 AM.
+     1>Project "D:\Users\Ed Starkey\Google Drive\Git Repositories\Project 1\Project 1\Project 1.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Ic:\Allegro\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp Observer.cpp shell.cpp sprite.cpp Subject.cpp tank.cpp TankGame.cpp vehicle.cpp world.cpp
+         world.cpp
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\subject.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\world.cpp(32): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\world.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+         vehicle.cpp
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\subject.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         TankGame.cpp
+         tank.cpp
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\subject.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\tank.cpp(90): warning C4018: '<' : signed/unsigned mismatch
+         Subject.cpp
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\subject.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\subject.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\subject.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+         sprite.cpp
+         shell.cpp
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\subject.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Observer.cpp
+         main.cpp
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\subject.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Generating Code...
+     1>d:\users\ed starkey\google drive\git repositories\project 1\project 1\world.cpp(133): warning C4715: 'starkey::world::getPlayer' : not all control paths return a value
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Ed Starkey\Google Drive\Git Repositories\Project 1\Debug\Project 1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Allegro\lib "allegro-5.0.10-monolith-md-debug.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Ed Starkey\Google Drive\Git Repositories\Project 1\Debug\Project 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Ed Starkey\Google Drive\Git Repositories\Project 1\Debug\Project 1.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Observer.obj
+         Debug\shell.obj
+         Debug\sprite.obj
+         Debug\Subject.obj
+         Debug\tank.obj
+         Debug\TankGame.obj
+         Debug\vehicle.obj
+         Debug\world.obj
+         Project 1.vcxproj -> D:\Users\Ed Starkey\Google Drive\Git Repositories\Project 1\Debug\Project 1.exe
+     1>Done Building Project "D:\Users\Ed Starkey\Google Drive\Git Repositories\Project 1\Project 1\Project 1.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.74

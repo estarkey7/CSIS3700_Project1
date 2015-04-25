@@ -1,0 +1,21 @@
+﻿Build started 4/3/2015 4:05:34 AM.
+     1>Project "D:\Users\Ed Starkey\Google Drive\YSU Spring 2015\CSIS 3700\Project 1\Project 1\Project 1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Ic:\Allegro\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt tank.cpp
+         tank.cpp
+     1>d:\users\ed starkey\google drive\ysu spring 2015\csis 3700\project 1\project 1\subject.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Ed Starkey\Google Drive\YSU Spring 2015\CSIS 3700\Project 1\Debug\Project 1.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Allegro\lib "allegro-5.0.10-monolith-md-debug.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Users\Ed Starkey\Google Drive\YSU Spring 2015\CSIS 3700\Project 1\Debug\Project 1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Ed Starkey\Google Drive\YSU Spring 2015\CSIS 3700\Project 1\Debug\Project 1.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Observer.obj
+         Debug\sprite.obj
+         Debug\Subject.obj
+         Debug\tank.obj
+         Debug\TankGame.obj
+         Debug\vehicle.obj
+         Debug\world.obj
+         Project 1.vcxproj -> D:\Users\Ed Starkey\Google Drive\YSU Spring 2015\CSIS 3700\Project 1\Debug\Project 1.exe
+     1>Done Building Project "D:\Users\Ed Starkey\Google Drive\YSU Spring 2015\CSIS 3700\Project 1\Project 1\Project 1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26
