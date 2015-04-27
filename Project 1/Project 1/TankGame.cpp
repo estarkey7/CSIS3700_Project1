@@ -12,7 +12,7 @@ namespace starkey
 
 	TankGame::GameState TankGame::GetCurrentGameState()
 	{
-		return CurrentGameState;
+		return CurrentGameState; //Comment
 	}
 
 	TankGame::Players TankGame::GetCurrentPlayer()
